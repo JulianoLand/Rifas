@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Rifa</title>
+</head>
+<body>
+    <div class="modal">
+        <div class="fundoModal">
+            <label>Numero que parou: </label><input id="nParou" type="number">
+            <p class="avisoN hidden">Digite um valor!</p>
+            <label>Quantidade de rifas: </label><input id="qtdRifas" type="number">
+            <p class="avisoQdt hidden">Digite um valor!</p>
+            <input id="btnModal" class="btn" type="submit" value="Gerar">
+        </div>
+    </div>
+
+    <div id="container" class="container hidden">
+        <div class="canhoto1">
+            <h1 class="title">RIFA DOS AMIGOS</h1>
+            <p>Nome:________________________________</p>
+            <p>Endereço:_____________________________</p>
+            <p>_____________________________________</p>
+            <p>Telefone:______________________________</p>
+            <div class="num">
+                <p>N º:</p><span id="num">0000</span>
+            </div>
+        </div>
+        <div class="containerM">
+            <div class="titleT">
+                <h1 class="title">RIFA DOS AMIGOS</h1>
+                <div class="titleH">
+                    <p>Em prol da cirurgia do Elizeu, ajude essa causa!</p>
+                </div>
+            </div>
+            <div class="canhoto">
+                <div class="descricao">
+                    <div class="desc">
+                        <p class="bold">Prêmios:</p>
+                        <p>1 - Moto CG 160FAN / 2016-usada</p>
+                        <p>2 - Churrasqueira eletrica Mondial.</p>
+                    </div>
+                    <div class="caixaV">
+                        <p class="destaque">Valor</p>
+                        <p class="destaque">R$ 10,00</p>
+                    </div>
+                    <div class="chaveP">
+                        <p class="key">PIX: 61 99300-6631</p>
+                        <p class="keyP">Sorteio: quando atingir a meta.</p>
+                    </div>
+                    
+                </div>
+                <div class="produtos">
+                    <img class="item2" src="Churrasqueira.png" alt="churrasqueira">
+                    <img class="item1" src="moto1.png" alt="moto">
+                    <div class="num">
+                        <p>N º:</p><span class="copy">0000</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
